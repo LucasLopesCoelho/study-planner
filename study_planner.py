@@ -22,8 +22,19 @@ print("Today's study plan:")
 
 total_minutes = 0
 total_breaks = 0
+current_time = start_time
 
-for item in subjects:
+for item in subjects:study_end = current_time + timedelta(minutes=minutes)
+
+print(
+    item["subject"],
+    "|",
+    current_time.strftime("%H:%M"),
+    "-",
+    study_end.strftime("%H:%M"),
+    "| Priority:",
+    priority_name
+)current_time = study_end + timedelta(minutes=breaks * break_duration)
     minutes = item["minutes"]
 priority = item["priority"]
 
