@@ -38,3 +38,8 @@ While building this project, I practiced:
 - Sorting data by priority
 - Time calculations
 - Building and deploying a working application
+- ## Screenshot
+
+![Study Planner Screenshot]()
+
+
