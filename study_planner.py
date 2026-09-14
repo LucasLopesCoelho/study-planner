@@ -1,17 +1,26 @@
 print("Welcome to Study Planner")
 
-subject = input("What subject do you want to study today? ")
-minutes = int(input("How many minutes do you want to study? "))
+subjects = []
 
-if minutes <= 30:
-    breaks = 0
-elif minutes <= 60:
-    breaks = 1
-else:
-    breaks = 2
+number_of_subjects = int(input("How many subjects do you want to study today? "))
+
+for i in range(number_of_subjects):
+    subject = input(f"Enter subject {i + 1}: ")
+    minutes = int(input(f"How many minutes for {subject}? "))
+
+    subjects.append({
+        "subject": subject,
+        "minutes": minutes
+    })
 
 print()
 print("Today's study plan:")
-print("Subject:", subject)
-print("Study time:", minutes, "minutes")
-print("Recommended breaks:", breaks)
+
+total_minutes = 0
+
+for item in subjects:
+    print("-", item["subject"], ":", item["minutes"], "minutes")
+    total_minutes += item["minutes"]
+
+print()
+print("Total study time:", total_minutes, "minutes")
