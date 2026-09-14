@@ -40,6 +40,6 @@ While building this project, I practiced:
 - Building and deploying a working application
 - ## Screenshot
 
-![Study Planner Screenshot]()
+![Study Planner Screenshot](Screenshot 2026-09-14 at 1.39.19 AM.png)
 
 
