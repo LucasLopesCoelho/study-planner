@@ -17,10 +17,25 @@ print()
 print("Today's study plan:")
 
 total_minutes = 0
+total_breaks = 0
 
 for item in subjects:
-    print("-", item["subject"], ":", item["minutes"], "minutes")
-    total_minutes += item["minutes"]
+    minutes = item["minutes"]
+
+    breaks = minutes // 50
+
+    print(
+        "-",
+        item["subject"],
+        ":",
+        minutes,
+        "minutes | Recommended breaks:",
+        breaks
+    )
+
+    total_minutes += minutes
+    total_breaks += breaks
 
 print()
 print("Total study time:", total_minutes, "minutes")
+print("Total recommended breaks:", total_breaks)
