@@ -21,3 +21,20 @@ The goal of this project is to create a simple tool that helps students organize
 ## Why I created this project
 
 I am learning Python and Computer Science independently. I created this project to practice programming while building something useful for students.
+## Live Demo
+
+You can try the app here:
+
+https://study-planner-web-app--lucaslopescoelh.replit.app
+
+## What I learned
+
+While building this project, I practiced:
+
+- Python basics
+- User input
+- Lists and dictionaries
+- Loops and conditional logic
+- Sorting data by priority
+- Time calculations
+- Building and deploying a working application
