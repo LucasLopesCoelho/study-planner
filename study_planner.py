@@ -15,7 +15,7 @@ for i in range(number_of_subjects):
 })
     })
 
-print()
+subjects.sort(key=lambda item: item["priority"], reverse=True)print()
 print("Today's study plan:")
 
 total_minutes = 0
