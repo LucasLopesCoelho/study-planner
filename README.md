@@ -38,6 +38,6 @@ While building this project, I practiced:
 - Sorting data by priority
 - Time calculations
 - Building and deploying a working application
-![Study Planner Screenshot](nome-exato-da-imagem.png)
+![Study Planner Screenshot](Screenshot 2026-09-14 at 1.39.19 AM.png)
 
 
