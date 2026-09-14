@@ -1,43 +1,63 @@
 # Study Planner
 
-Study Planner is my first Python project.
+Study Planner is a web application designed to help students organize study sessions by subject, priority and available study time.
 
-The goal of this project is to create a simple tool that helps students organize their study sessions.
+The application automatically organizes subjects by priority, recommends breaks and calculates the total study session time.
 
-## Current features
-
-- Choose a subject to study
-- Choose how many minutes to study
-- Generate a simple study plan
-
-## Future improvements
-
-- Add multiple subjects
-- Create study priorities
-- Calculate break times
-- Save study sessions
-- Track study progress
-
-## Why I created this project
-
-I am learning Python and Computer Science independently. I created this project to practice programming while building something useful for students.
 ## Live Demo
 
-You can try the app here:
+You can try the application here:
 
 https://study-planner-web-app--lucaslopescoelh.replit.app
 
-## What I learned
+## Screenshot
+
+![Study Planner Screenshot](1)
+
+## Features
+
+- Add multiple subjects
+- Choose study time for each subject
+- Set subject priority
+- Automatically organize subjects by priority
+- Calculate recommended breaks
+- Calculate total study time
+- Calculate total session time
+- Estimate the study finish time
+
+## Technologies Used
+
+- Python
+- GitHub
+- Replit
+
+## What I Learned
 
 While building this project, I practiced:
 
-- Python basics
+- Python fundamentals
 - User input
 - Lists and dictionaries
-- Loops and conditional logic
-- Sorting data by priority
+- Loops
+- Conditional logic
+- Sorting data
 - Time calculations
-- Building and deploying a working application
-![Study Planner Screenshot](1)
+- Basic application development
+- Version control with GitHub
+- Deploying a working application
 
+## Project Goal
 
+I created this project while learning Python and Computer Science independently.
+
+My goal was to build something practical rather than only completing programming exercises. The project helped me understand how different programming concepts can work together to create a useful application.
+
+## Future Improvements
+
+I plan to continue improving the project by adding:
+
+- Better study-session customization
+- Progress tracking
+- Saved study plans
+- More advanced scheduling
+- Improved user interface
